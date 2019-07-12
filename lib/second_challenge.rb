@@ -7,8 +7,8 @@ def second_challenge
   }
 
   groceries.each do |section, item|
-    section.values do |type|
-      type.list
+    if section > nil
+      do section.values
       
 
   
