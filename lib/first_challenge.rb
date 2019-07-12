@@ -14,14 +14,11 @@ def first_challenge
   }
 
   
-  contacts.each do |person, data|
-    data.each do |attribute, value|
-      value.delete_if do |value|
-        value == "strawberry"
+  contacts["Freddy Mercury"].each do |attribute, value|
+    value.delete_if do
+      if value
+      
         
-      end
-  end
-end
  
 
 end
