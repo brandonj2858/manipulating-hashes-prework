@@ -16,7 +16,7 @@ def first_challenge
   
   contacts.each do |person, data|
     data.each do |attribute, value|
-      value.delete_if attribute == "strawberry"
+      value.delete_if value == "strawberry"
         
       
   end
