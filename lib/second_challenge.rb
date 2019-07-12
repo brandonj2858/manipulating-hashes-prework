@@ -6,10 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.each do |section, item|
-    if section > nil
-      do section.values
-      
+  groceries.values.flatten
 
   
 
